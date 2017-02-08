@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF529C0B1E4B04BF00657A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C0A1E4B04BF00657A11 /* main.m */; };
+		EF529C0E1E4B04BF00657A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C0D1E4B04BF00657A11 /* AppDelegate.m */; };
+		EF529C111E4B04BF00657A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C101E4B04BF00657A11 /* ViewController.m */; };
+		EF529C141E4B04BF00657A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF529C121E4B04BF00657A11 /* Main.storyboard */; };
+		EF529C171E4B04BF00657A11 /* New_IAS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF529C151E4B04BF00657A11 /* New_IAS.xcdatamodeld */; };
+		EF529C191E4B04BF00657A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF529C181E4B04BF00657A11 /* Assets.xcassets */; };
+		EF529C1C1E4B04BF00657A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF529C1A1E4B04BF00657A11 /* LaunchScreen.storyboard */; };
+		EF529C271E4B04BF00657A11 /* New_IASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C261E4B04BF00657A11 /* New_IASTests.m */; };
+		EF529C321E4B04BF00657A11 /* New_IASUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C311E4B04BF00657A11 /* New_IASUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF529C231E4B04BF00657A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF529BFE1E4B04BF00657A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF529C051E4B04BF00657A11;
+			remoteInfo = "New IAS";
+		};
+		EF529C2E1E4B04BF00657A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF529BFE1E4B04BF00657A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF529C051E4B04BF00657A11;
+			remoteInfo = "New IAS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF529C061E4B04BF00657A11 /* New IAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New IAS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF529C0A1E4B04BF00657A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF529C0C1E4B04BF00657A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF529C0D1E4B04BF00657A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF529C0F1E4B04BF00657A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF529C101E4B04BF00657A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF529C131E4B04BF00657A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF529C161E4B04BF00657A11 /* New_IAS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = New_IAS.xcdatamodel; sourceTree = "<group>"; };
+		EF529C181E4B04BF00657A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF529C1B1E4B04BF00657A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF529C1D1E4B04BF00657A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF529C221E4B04BF00657A11 /* New IASTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New IASTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF529C261E4B04BF00657A11 /* New_IASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_IASTests.m; sourceTree = "<group>"; };
+		EF529C281E4B04BF00657A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF529C2D1E4B04BF00657A11 /* New IASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New IASUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF529C311E4B04BF00657A11 /* New_IASUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_IASUITests.m; sourceTree = "<group>"; };
+		EF529C331E4B04BF00657A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF529C031E4B04BF00657A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C1F1E4B04BF00657A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C2A1E4B04BF00657A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF529BFD1E4B04BF00657A11 = {
+			isa = PBXGroup;
+			children = (
+				EF529C081E4B04BF00657A11 /* New IAS */,
+				EF529C251E4B04BF00657A11 /* New IASTests */,
+				EF529C301E4B04BF00657A11 /* New IASUITests */,
+				EF529C071E4B04BF00657A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF529C071E4B04BF00657A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C061E4B04BF00657A11 /* New IAS.app */,
+				EF529C221E4B04BF00657A11 /* New IASTests.xctest */,
+				EF529C2D1E4B04BF00657A11 /* New IASUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF529C081E4B04BF00657A11 /* New IAS */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C0C1E4B04BF00657A11 /* AppDelegate.h */,
+				EF529C0D1E4B04BF00657A11 /* AppDelegate.m */,
+				EF529C0F1E4B04BF00657A11 /* ViewController.h */,
+				EF529C101E4B04BF00657A11 /* ViewController.m */,
+				EF529C121E4B04BF00657A11 /* Main.storyboard */,
+				EF529C181E4B04BF00657A11 /* Assets.xcassets */,
+				EF529C1A1E4B04BF00657A11 /* LaunchScreen.storyboard */,
+				EF529C1D1E4B04BF00657A11 /* Info.plist */,
+				EF529C151E4B04BF00657A11 /* New_IAS.xcdatamodeld */,
+				EF529C091E4B04BF00657A11 /* Supporting Files */,
+			);
+			path = "New IAS";
+			sourceTree = "<group>";
+		};
+		EF529C091E4B04BF00657A11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C0A1E4B04BF00657A11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF529C251E4B04BF00657A11 /* New IASTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C261E4B04BF00657A11 /* New_IASTests.m */,
+				EF529C281E4B04BF00657A11 /* Info.plist */,
+			);
+			path = "New IASTests";
+			sourceTree = "<group>";
+		};
+		EF529C301E4B04BF00657A11 /* New IASUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C311E4B04BF00657A11 /* New_IASUITests.m */,
+				EF529C331E4B04BF00657A11 /* Info.plist */,
+			);
+			path = "New IASUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF529C051E4B04BF00657A11 /* New IAS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF529C361E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IAS" */;
+			buildPhases = (
+				EF529C021E4B04BF00657A11 /* Sources */,
+				EF529C031E4B04BF00657A11 /* Frameworks */,
+				EF529C041E4B04BF00657A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New IAS";
+			productName = "New IAS";
+			productReference = EF529C061E4B04BF00657A11 /* New IAS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF529C211E4B04BF00657A11 /* New IASTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF529C391E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASTests" */;
+			buildPhases = (
+				EF529C1E1E4B04BF00657A11 /* Sources */,
+				EF529C1F1E4B04BF00657A11 /* Frameworks */,
+				EF529C201E4B04BF00657A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF529C241E4B04BF00657A11 /* PBXTargetDependency */,
+			);
+			name = "New IASTests";
+			productName = "New IASTests";
+			productReference = EF529C221E4B04BF00657A11 /* New IASTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF529C2C1E4B04BF00657A11 /* New IASUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF529C3C1E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASUITests" */;
+			buildPhases = (
+				EF529C291E4B04BF00657A11 /* Sources */,
+				EF529C2A1E4B04BF00657A11 /* Frameworks */,
+				EF529C2B1E4B04BF00657A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF529C2F1E4B04BF00657A11 /* PBXTargetDependency */,
+			);
+			name = "New IASUITests";
+			productName = "New IASUITests";
+			productReference = EF529C2D1E4B04BF00657A11 /* New IASUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF529BFE1E4B04BF00657A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wyfnevermore;
+				TargetAttributes = {
+					EF529C051E4B04BF00657A11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+					};
+					EF529C211E4B04BF00657A11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF529C051E4B04BF00657A11;
+					};
+					EF529C2C1E4B04BF00657A11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF529C051E4B04BF00657A11;
+					};
+				};
+			};
+			buildConfigurationList = EF529C011E4B04BF00657A11 /* Build configuration list for PBXProject "New IAS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF529BFD1E4B04BF00657A11;
+			productRefGroup = EF529C071E4B04BF00657A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF529C051E4B04BF00657A11 /* New IAS */,
+				EF529C211E4B04BF00657A11 /* New IASTests */,
+				EF529C2C1E4B04BF00657A11 /* New IASUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF529C041E4B04BF00657A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF529C1C1E4B04BF00657A11 /* LaunchScreen.storyboard in Resources */,
+				EF529C191E4B04BF00657A11 /* Assets.xcassets in Resources */,
+				EF529C141E4B04BF00657A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C201E4B04BF00657A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C2B1E4B04BF00657A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF529C021E4B04BF00657A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF529C111E4B04BF00657A11 /* ViewController.m in Sources */,
+				EF529C0E1E4B04BF00657A11 /* AppDelegate.m in Sources */,
+				EF529C171E4B04BF00657A11 /* New_IAS.xcdatamodeld in Sources */,
+				EF529C0B1E4B04BF00657A11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C1E1E4B04BF00657A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF529C271E4B04BF00657A11 /* New_IASTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF529C291E4B04BF00657A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF529C321E4B04BF00657A11 /* New_IASUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF529C241E4B04BF00657A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF529C051E4B04BF00657A11 /* New IAS */;
+			targetProxy = EF529C231E4B04BF00657A11 /* PBXContainerItemProxy */;
+		};
+		EF529C2F1E4B04BF00657A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF529C051E4B04BF00657A11 /* New IAS */;
+			targetProxy = EF529C2E1E4B04BF00657A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF529C121E4B04BF00657A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF529C131E4B04BF00657A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF529C1A1E4B04BF00657A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF529C1B1E4B04BF00657A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF529C341E4B04BF00657A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF529C351E4B04BF00657A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF529C371E4B04BF00657A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IAS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IAS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF529C381E4B04BF00657A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IAS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IAS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF529C3A1E4B04BF00657A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IASTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IASTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New IAS.app/New IAS";
+			};
+			name = Debug;
+		};
+		EF529C3B1E4B04BF00657A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IASTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IASTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New IAS.app/New IAS";
+			};
+			name = Release;
+		};
+		EF529C3D1E4B04BF00657A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IASUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IASUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "New IAS";
+			};
+			name = Debug;
+		};
+		EF529C3E1E4B04BF00657A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "New IASUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IASUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "New IAS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF529C011E4B04BF00657A11 /* Build configuration list for PBXProject "New IAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF529C341E4B04BF00657A11 /* Debug */,
+				EF529C351E4B04BF00657A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF529C361E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF529C371E4B04BF00657A11 /* Debug */,
+				EF529C381E4B04BF00657A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF529C391E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF529C3A1E4B04BF00657A11 /* Debug */,
+				EF529C3B1E4B04BF00657A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF529C3C1E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF529C3D1E4B04BF00657A11 /* Debug */,
+				EF529C3E1E4B04BF00657A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF529C151E4B04BF00657A11 /* New_IAS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF529C161E4B04BF00657A11 /* New_IAS.xcdatamodel */,
+			);
+			currentVersion = EF529C161E4B04BF00657A11 /* New_IAS.xcdatamodel */;
+			path = New_IAS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF529BFE1E4B04BF00657A11 /* Project object */;
+}
