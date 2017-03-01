@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF24B5D61E4C589A00C567EA /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24B5D51E4C589A00C567EA /* Styles.m */; };
 		EF529C0B1E4B04BF00657A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C0A1E4B04BF00657A11 /* main.m */; };
 		EF529C0E1E4B04BF00657A11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C0D1E4B04BF00657A11 /* AppDelegate.m */; };
-		EF529C111E4B04BF00657A11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C101E4B04BF00657A11 /* ViewController.m */; };
+		EF529C111E4B04BF00657A11 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF529C101E4B04BF00657A11 /* ViewController.mm */; };
 		EF529C141E4B04BF00657A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF529C121E4B04BF00657A11 /* Main.storyboard */; };
 		EF529C171E4B04BF00657A11 /* New_IAS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF529C151E4B04BF00657A11 /* New_IAS.xcdatamodeld */; };
 		EF529C191E4B04BF00657A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF529C181E4B04BF00657A11 /* Assets.xcassets */; };
 		EF529C1C1E4B04BF00657A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF529C1A1E4B04BF00657A11 /* LaunchScreen.storyboard */; };
 		EF529C271E4B04BF00657A11 /* New_IASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C261E4B04BF00657A11 /* New_IASTests.m */; };
 		EF529C321E4B04BF00657A11 /* New_IASUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF529C311E4B04BF00657A11 /* New_IASUITests.m */; };
+		EF529D151E4B069F00657A11 /* dlpdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C401E4B069F00657A11 /* dlpdata.cpp */; };
+		EF529D161E4B069F00657A11 /* dlpspec_calib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C421E4B069F00657A11 /* dlpspec_calib.cpp */; };
+		EF529D171E4B069F00657A11 /* dlpspec_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C451E4B069F00657A11 /* dlpspec_helper.cpp */; };
+		EF529D181E4B069F00657A11 /* dlpspec_scan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C471E4B069F00657A11 /* dlpspec_scan.cpp */; };
+		EF529D191E4B069F00657A11 /* dlpspec_scan_col.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C491E4B069F00657A11 /* dlpspec_scan_col.cpp */; };
+		EF529D1A1E4B069F00657A11 /* dlpspec_scan_had.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C4B1E4B069F00657A11 /* dlpspec_scan_had.cpp */; };
+		EF529D1B1E4B069F00657A11 /* dlpspec_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529C4F1E4B069F00657A11 /* dlpspec_util.cpp */; };
+		EF529DB31E4B069F00657A11 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529D071E4B069F00657A11 /* stdafx.cpp */; };
+		EF529DB41E4B069F00657A11 /* tpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF529D091E4B069F00657A11 /* tpl.cpp */; };
+		EF7C06CD1E519F31004541B1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C06CC1E519F31004541B1 /* CoreBluetooth.framework */; };
+		EF89B5EB1E5ABFC1002B3D55 /* YFDataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF89B5EA1E5ABFC1002B3D55 /* YFDataTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF24B5D41E4C589A00C567EA /* Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
+		EF24B5D51E4C589A00C567EA /* Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
 		EF529C061E4B04BF00657A11 /* New IAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New IAS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF529C0A1E4B04BF00657A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF529C0C1E4B04BF00657A11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF529C0D1E4B04BF00657A11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF529C0F1E4B04BF00657A11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF529C101E4B04BF00657A11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF529C101E4B04BF00657A11 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		EF529C131E4B04BF00657A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF529C161E4B04BF00657A11 /* New_IAS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = New_IAS.xcdatamodel; sourceTree = "<group>"; };
 		EF529C181E4B04BF00657A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +67,59 @@
 		EF529C2D1E4B04BF00657A11 /* New IASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New IASUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF529C311E4B04BF00657A11 /* New_IASUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_IASUITests.m; sourceTree = "<group>"; };
 		EF529C331E4B04BF00657A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF529C401E4B069F00657A11 /* dlpdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpdata.cpp; sourceTree = "<group>"; };
+		EF529C411E4B069F00657A11 /* dlpdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpdata.h; sourceTree = "<group>"; };
+		EF529C421E4B069F00657A11 /* dlpspec_calib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_calib.cpp; sourceTree = "<group>"; };
+		EF529C431E4B069F00657A11 /* dlpspec_calib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_calib.h; sourceTree = "<group>"; };
+		EF529C441E4B069F00657A11 /* dlpspec_had_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_defs.h; sourceTree = "<group>"; };
+		EF529C451E4B069F00657A11 /* dlpspec_helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_helper.cpp; sourceTree = "<group>"; };
+		EF529C461E4B069F00657A11 /* dlpspec_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_helper.h; sourceTree = "<group>"; };
+		EF529C471E4B069F00657A11 /* dlpspec_scan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_scan.cpp; sourceTree = "<group>"; };
+		EF529C481E4B069F00657A11 /* dlpspec_scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_scan.h; sourceTree = "<group>"; };
+		EF529C491E4B069F00657A11 /* dlpspec_scan_col.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_scan_col.cpp; sourceTree = "<group>"; };
+		EF529C4A1E4B069F00657A11 /* dlpspec_scan_col.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_scan_col.h; sourceTree = "<group>"; };
+		EF529C4B1E4B069F00657A11 /* dlpspec_scan_had.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_scan_had.cpp; sourceTree = "<group>"; };
+		EF529C4C1E4B069F00657A11 /* dlpspec_scan_had.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_scan_had.h; sourceTree = "<group>"; };
+		EF529C4D1E4B069F00657A11 /* dlpspec_setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_setup.h; sourceTree = "<group>"; };
+		EF529C4E1E4B069F00657A11 /* dlpspec_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_types.h; sourceTree = "<group>"; };
+		EF529C4F1E4B069F00657A11 /* dlpspec_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dlpspec_util.cpp; sourceTree = "<group>"; };
+		EF529C501E4B069F00657A11 /* dlpspec_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_util.h; sourceTree = "<group>"; };
+		EF529C531E4B069F00657A11 /* dlpspec_had_mat_103.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_103.h; sourceTree = "<group>"; };
+		EF529C541E4B069F00657A11 /* dlpspec_had_mat_107.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_107.h; sourceTree = "<group>"; };
+		EF529C551E4B069F00657A11 /* dlpspec_had_mat_11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_11.h; sourceTree = "<group>"; };
+		EF529C561E4B069F00657A11 /* dlpspec_had_mat_127.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_127.h; sourceTree = "<group>"; };
+		EF529C571E4B069F00657A11 /* dlpspec_had_mat_131.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_131.h; sourceTree = "<group>"; };
+		EF529C581E4B069F00657A11 /* dlpspec_had_mat_139.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_139.h; sourceTree = "<group>"; };
+		EF529C591E4B069F00657A11 /* dlpspec_had_mat_151.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_151.h; sourceTree = "<group>"; };
+		EF529C5A1E4B069F00657A11 /* dlpspec_had_mat_163.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_163.h; sourceTree = "<group>"; };
+		EF529C5B1E4B069F00657A11 /* dlpspec_had_mat_167.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_167.h; sourceTree = "<group>"; };
+		EF529C5C1E4B069F00657A11 /* dlpspec_had_mat_179.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_179.h; sourceTree = "<group>"; };
+		EF529C5D1E4B069F00657A11 /* dlpspec_had_mat_19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_19.h; sourceTree = "<group>"; };
+		EF529C5E1E4B069F00657A11 /* dlpspec_had_mat_191.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_191.h; sourceTree = "<group>"; };
+		EF529C5F1E4B069F00657A11 /* dlpspec_had_mat_199.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_199.h; sourceTree = "<group>"; };
+		EF529C601E4B069F00657A11 /* dlpspec_had_mat_211.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_211.h; sourceTree = "<group>"; };
+		EF529C611E4B069F00657A11 /* dlpspec_had_mat_223.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_223.h; sourceTree = "<group>"; };
+		EF529C621E4B069F00657A11 /* dlpspec_had_mat_227.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_227.h; sourceTree = "<group>"; };
+		EF529C631E4B069F00657A11 /* dlpspec_had_mat_23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_23.h; sourceTree = "<group>"; };
+		EF529C641E4B069F00657A11 /* dlpspec_had_mat_239.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_239.h; sourceTree = "<group>"; };
+		EF529C651E4B069F00657A11 /* dlpspec_had_mat_251.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_251.h; sourceTree = "<group>"; };
+		EF529C661E4B069F00657A11 /* dlpspec_had_mat_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_3.h; sourceTree = "<group>"; };
+		EF529C671E4B069F00657A11 /* dlpspec_had_mat_31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_31.h; sourceTree = "<group>"; };
+		EF529C681E4B069F00657A11 /* dlpspec_had_mat_43.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_43.h; sourceTree = "<group>"; };
+		EF529C691E4B069F00657A11 /* dlpspec_had_mat_47.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_47.h; sourceTree = "<group>"; };
+		EF529C6A1E4B069F00657A11 /* dlpspec_had_mat_59.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_59.h; sourceTree = "<group>"; };
+		EF529C6B1E4B069F00657A11 /* dlpspec_had_mat_67.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_67.h; sourceTree = "<group>"; };
+		EF529C6C1E4B069F00657A11 /* dlpspec_had_mat_7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_7.h; sourceTree = "<group>"; };
+		EF529C6D1E4B069F00657A11 /* dlpspec_had_mat_71.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_71.h; sourceTree = "<group>"; };
+		EF529C6E1E4B069F00657A11 /* dlpspec_had_mat_79.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_79.h; sourceTree = "<group>"; };
+		EF529C6F1E4B069F00657A11 /* dlpspec_had_mat_83.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpspec_had_mat_83.h; sourceTree = "<group>"; };
+		EF529D071E4B069F00657A11 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		EF529D081E4B069F00657A11 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		EF529D091E4B069F00657A11 /* tpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpl.cpp; sourceTree = "<group>"; };
+		EF529D0A1E4B069F00657A11 /* tpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tpl.h; sourceTree = "<group>"; };
+		EF7C06CC1E519F31004541B1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EF89B5E91E5ABFC1002B3D55 /* YFDataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFDataTableView.h; sourceTree = "<group>"; };
+		EF89B5EA1E5ABFC1002B3D55 /* YFDataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFDataTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7C06CD1E519F31004541B1 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +148,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF24B5D21E4C57F500C567EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C0F1E4B04BF00657A11 /* ViewController.h */,
+				EF529C101E4B04BF00657A11 /* ViewController.mm */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EF24B5D31E4C580E00C567EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF24B5D41E4C589A00C567EA /* Styles.h */,
+				EF24B5D51E4C589A00C567EA /* Styles.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EF529BFD1E4B04BF00657A11 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +173,7 @@
 				EF529C251E4B04BF00657A11 /* New IASTests */,
 				EF529C301E4B04BF00657A11 /* New IASUITests */,
 				EF529C071E4B04BF00657A11 /* Products */,
+				EF7C06CB1E519F31004541B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +190,12 @@
 		EF529C081E4B04BF00657A11 /* New IAS */ = {
 			isa = PBXGroup;
 			children = (
+				EF89B5E71E5ABF3C002B3D55 /* View */,
+				EF24B5D31E4C580E00C567EA /* Model */,
+				EF24B5D21E4C57F500C567EA /* Controller */,
+				EF529C3F1E4B069F00657A11 /* DLP-C++ */,
 				EF529C0C1E4B04BF00657A11 /* AppDelegate.h */,
 				EF529C0D1E4B04BF00657A11 /* AppDelegate.m */,
-				EF529C0F1E4B04BF00657A11 /* ViewController.h */,
-				EF529C101E4B04BF00657A11 /* ViewController.m */,
 				EF529C121E4B04BF00657A11 /* Main.storyboard */,
 				EF529C181E4B04BF00657A11 /* Assets.xcassets */,
 				EF529C1A1E4B04BF00657A11 /* LaunchScreen.storyboard */,
@@ -141,6 +230,88 @@
 				EF529C331E4B04BF00657A11 /* Info.plist */,
 			);
 			path = "New IASUITests";
+			sourceTree = "<group>";
+		};
+		EF529C3F1E4B069F00657A11 /* DLP-C++ */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C401E4B069F00657A11 /* dlpdata.cpp */,
+				EF529C411E4B069F00657A11 /* dlpdata.h */,
+				EF529C421E4B069F00657A11 /* dlpspec_calib.cpp */,
+				EF529C431E4B069F00657A11 /* dlpspec_calib.h */,
+				EF529C441E4B069F00657A11 /* dlpspec_had_defs.h */,
+				EF529C451E4B069F00657A11 /* dlpspec_helper.cpp */,
+				EF529C461E4B069F00657A11 /* dlpspec_helper.h */,
+				EF529C471E4B069F00657A11 /* dlpspec_scan.cpp */,
+				EF529C481E4B069F00657A11 /* dlpspec_scan.h */,
+				EF529C491E4B069F00657A11 /* dlpspec_scan_col.cpp */,
+				EF529C4A1E4B069F00657A11 /* dlpspec_scan_col.h */,
+				EF529C4B1E4B069F00657A11 /* dlpspec_scan_had.cpp */,
+				EF529C4C1E4B069F00657A11 /* dlpspec_scan_had.h */,
+				EF529C4D1E4B069F00657A11 /* dlpspec_setup.h */,
+				EF529C4E1E4B069F00657A11 /* dlpspec_types.h */,
+				EF529C4F1E4B069F00657A11 /* dlpspec_util.cpp */,
+				EF529C501E4B069F00657A11 /* dlpspec_util.h */,
+				EF529C521E4B069F00657A11 /* pre-compile */,
+				EF529D071E4B069F00657A11 /* stdafx.cpp */,
+				EF529D081E4B069F00657A11 /* stdafx.h */,
+				EF529D091E4B069F00657A11 /* tpl.cpp */,
+				EF529D0A1E4B069F00657A11 /* tpl.h */,
+			);
+			path = "DLP-C++";
+			sourceTree = "<group>";
+		};
+		EF529C521E4B069F00657A11 /* pre-compile */ = {
+			isa = PBXGroup;
+			children = (
+				EF529C531E4B069F00657A11 /* dlpspec_had_mat_103.h */,
+				EF529C541E4B069F00657A11 /* dlpspec_had_mat_107.h */,
+				EF529C551E4B069F00657A11 /* dlpspec_had_mat_11.h */,
+				EF529C561E4B069F00657A11 /* dlpspec_had_mat_127.h */,
+				EF529C571E4B069F00657A11 /* dlpspec_had_mat_131.h */,
+				EF529C581E4B069F00657A11 /* dlpspec_had_mat_139.h */,
+				EF529C591E4B069F00657A11 /* dlpspec_had_mat_151.h */,
+				EF529C5A1E4B069F00657A11 /* dlpspec_had_mat_163.h */,
+				EF529C5B1E4B069F00657A11 /* dlpspec_had_mat_167.h */,
+				EF529C5C1E4B069F00657A11 /* dlpspec_had_mat_179.h */,
+				EF529C5D1E4B069F00657A11 /* dlpspec_had_mat_19.h */,
+				EF529C5E1E4B069F00657A11 /* dlpspec_had_mat_191.h */,
+				EF529C5F1E4B069F00657A11 /* dlpspec_had_mat_199.h */,
+				EF529C601E4B069F00657A11 /* dlpspec_had_mat_211.h */,
+				EF529C611E4B069F00657A11 /* dlpspec_had_mat_223.h */,
+				EF529C621E4B069F00657A11 /* dlpspec_had_mat_227.h */,
+				EF529C631E4B069F00657A11 /* dlpspec_had_mat_23.h */,
+				EF529C641E4B069F00657A11 /* dlpspec_had_mat_239.h */,
+				EF529C651E4B069F00657A11 /* dlpspec_had_mat_251.h */,
+				EF529C661E4B069F00657A11 /* dlpspec_had_mat_3.h */,
+				EF529C671E4B069F00657A11 /* dlpspec_had_mat_31.h */,
+				EF529C681E4B069F00657A11 /* dlpspec_had_mat_43.h */,
+				EF529C691E4B069F00657A11 /* dlpspec_had_mat_47.h */,
+				EF529C6A1E4B069F00657A11 /* dlpspec_had_mat_59.h */,
+				EF529C6B1E4B069F00657A11 /* dlpspec_had_mat_67.h */,
+				EF529C6C1E4B069F00657A11 /* dlpspec_had_mat_7.h */,
+				EF529C6D1E4B069F00657A11 /* dlpspec_had_mat_71.h */,
+				EF529C6E1E4B069F00657A11 /* dlpspec_had_mat_79.h */,
+				EF529C6F1E4B069F00657A11 /* dlpspec_had_mat_83.h */,
+			);
+			path = "pre-compile";
+			sourceTree = "<group>";
+		};
+		EF7C06CB1E519F31004541B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C06CC1E519F31004541B1 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF89B5E71E5ABF3C002B3D55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF89B5E91E5ABFC1002B3D55 /* YFDataTableView.h */,
+				EF89B5EA1E5ABFC1002B3D55 /* YFDataTableView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +450,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF529C111E4B04BF00657A11 /* ViewController.m in Sources */,
+				EF529D181E4B069F00657A11 /* dlpspec_scan.cpp in Sources */,
+				EF529C111E4B04BF00657A11 /* ViewController.mm in Sources */,
+				EF529DB41E4B069F00657A11 /* tpl.cpp in Sources */,
 				EF529C0E1E4B04BF00657A11 /* AppDelegate.m in Sources */,
+				EF89B5EB1E5ABFC1002B3D55 /* YFDataTableView.m in Sources */,
 				EF529C171E4B04BF00657A11 /* New_IAS.xcdatamodeld in Sources */,
+				EF529D1A1E4B069F00657A11 /* dlpspec_scan_had.cpp in Sources */,
+				EF529D161E4B069F00657A11 /* dlpspec_calib.cpp in Sources */,
+				EF529D1B1E4B069F00657A11 /* dlpspec_util.cpp in Sources */,
+				EF529D171E4B069F00657A11 /* dlpspec_helper.cpp in Sources */,
+				EF24B5D61E4C589A00C567EA /* Styles.m in Sources */,
+				EF529DB31E4B069F00657A11 /* stdafx.cpp in Sources */,
 				EF529C0B1E4B04BF00657A11 /* main.m in Sources */,
+				EF529D191E4B069F00657A11 /* dlpspec_scan_col.cpp in Sources */,
+				EF529D151E4B069F00657A11 /* dlpdata.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -418,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,8 +613,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AJ68K6K9EW;
 				INFOPLIST_FILE = "New IAS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IAS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,8 +626,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AJ68K6K9EW;
 				INFOPLIST_FILE = "New IAS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.New-IAS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -518,6 +702,7 @@
 				EF529C381E4B04BF00657A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF529C391E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +711,7 @@
 				EF529C3B1E4B04BF00657A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF529C3C1E4B04BF00657A11 /* Build configuration list for PBXNativeTarget "New IASUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +720,7 @@
 				EF529C3E1E4B04BF00657A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
